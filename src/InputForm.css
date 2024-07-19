@@ -1,0 +1,41 @@
+.input-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .input-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .input-form input.error {
+    border: 2px solid red;
+  }
+  
+  .input-form button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input-form button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .input-form ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .input-form li {
+    padding: 5px;
+    text-align: left;
+    font-size: small;
+  }
+  
